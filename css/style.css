@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.blue{
+        background-color: #0D325A;
+}
+
+.white{
+    background-color: white;
+}
+
+.gray{
+    background-color: lightgray;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    background-color: orange;
+}
+
+.banner {
+    height: 430px;
+}
+
+.gray-row{
+    text-align: center;
+    height: 150px;
+}
+
+.white-row{
+    width: 100%;
+}
+
+.box{
+    width: 33.333%;
+    height: 100px;
+    background: purple;
+    float: left;
+}
