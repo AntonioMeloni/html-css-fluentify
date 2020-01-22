@@ -10,12 +10,18 @@
     clear: both;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .blue{
         background-color: #0D325A;
 }
 
 .white{
     background-color: white;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
 }
 
 .gray{
