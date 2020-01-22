@@ -19,7 +19,7 @@
 }
 
 .gray{
-    background-color: lightgray;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -27,7 +27,6 @@
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 header {
@@ -138,9 +137,20 @@ header {
     left:45%;
 }
 
+/* FINE STRUTTURA BANNER */
+
 .gray-row{
+    padding: 50px 0;
     text-align: center;
-    height: 150px;
+}
+
+.text1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.text2{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .white-row{
@@ -148,8 +158,45 @@ header {
 }
 
 .box{
-    width: 33.333%;
-    height: 100px;
-    background: purple;
+    width: 33.33%;
     float: left;
+    text-align: center;
+    padding: 0 15px;
 }
+
+.box .icon-box{
+    height: 240px;
+    position: relative;
+}
+
+.box img{
+    height: 160px;
+    margin-top: 5px;
+    line-height: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-box h6{
+    font-size: 23px;
+    min-height: 50px;
+    color: #7fb802;
+    font-weight: 600;
+}
+
+.text-box h5{
+    font-size: 23px;
+    min-height: 50px;
+    line-height: 50px;
+    color: lightgray;
+    letter-spacing: -5px;
+}
+
+.text-box p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+    padding: 0 30px;
